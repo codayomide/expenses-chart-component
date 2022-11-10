@@ -1,0 +1,34 @@
+#graph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: solid 1.5px $medium-brown;
+    margin: 1.5rem 0;
+}
+
+#stat {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .bar-wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .bar {
+            width: 100%;
+            border-radius: 2.5px;
+        }
+    
+        p {
+            margin-top: 0.5rem;
+        }
+    }
+}

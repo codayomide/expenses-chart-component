@@ -1,0 +1,42 @@
+$dark-brown: hsl(25, 47%, 15%);
+$medium-brown: hsl(28, 10%, 53%);
+$cream: hsl(27, 66%, 92%);
+$very-pale-orange: hsl(33, 100%, 98%);
+$soft-red: hsl(10, 79%, 65%);
+$cyan: hsl(186, 34%, 60%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin media-xs {
+    @media screen and (min-width: 0px) {
+        @content;
+    }
+}
+
+@mixin media-sm {
+    @media screen and (min-width: 576px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}

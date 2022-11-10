@@ -1,0 +1,37 @@
+@include media-xs {
+    #main {
+        width: 100%;
+    }
+
+    .bar-wrapper {
+        width: 2rem;
+    }
+}
+
+@include media-sm {
+    #main {
+        width: 90%;
+    }
+}
+
+@include media-md {
+    #main {
+        width: 60%;
+    }
+
+    .bar-wrapper {
+        width: 2.5rem;
+    }
+}
+
+@include media-lg {
+    #main {
+        width: 40%;
+    }
+}
+
+@include media-xl {
+    #main {
+        width: 35%;
+    }
+}
