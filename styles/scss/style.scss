@@ -2,9 +2,11 @@
 @import 'graph';
 @import 'responsive';
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 body {
     background-color: $cream;
-    font-family: sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #container {
